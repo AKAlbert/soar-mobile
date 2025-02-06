@@ -1,0 +1,34 @@
+{
+  "name": "soar-mobile-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "wdio run wdio.conf.js",
+    "report": "allure generate allure-results --clean && allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "^2.15.0",
+    "webdriverio": "^9.7.3"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.x",
+    "@wdio/appium-service": "^8.x",
+    "@wdio/cli": "^8.x",
+    "@wdio/local-runner": "^8.x",
+    "@wdio/mocha-framework": "^8.x",
+    "@wdio/spec-reporter": "^8.x",
+    "allure-commandline": "^2.x",
+    "appium-uiautomator2-driver": "^4.0.0",
+    "chai": "^4.x",
+    "@babel/core": "^7.22.17",
+    "@babel/preset-env": "^7.22.15",
+    "@babel/register": "^7.22.15",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.8.2"
+  }
+}
